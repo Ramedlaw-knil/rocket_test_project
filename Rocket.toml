@@ -1,0 +1,14 @@
+## More Information about the config: https://rocket.rs/v0.5-rc/guide/configuration/
+
+# defaults for _all_ profiles
+[default]
+address = "0.0.0.0"
+
+## set only when compiled in debug mode, i.e, `cargo build`
+[debug]
+port = 8080
+
+
+## set only when compiled in release mode, i.e, `cargo build --release`
+[release]
+port = 8080
